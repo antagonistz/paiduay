@@ -24,6 +24,7 @@ import android.view.WindowManager;
 public class NotificationService extends Service {
 
     View mView;
+    String name;
 /*
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {

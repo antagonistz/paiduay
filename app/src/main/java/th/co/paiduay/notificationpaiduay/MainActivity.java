@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
 
         Handler mHandler = new Handler();
         mHandler.removeCallbacks(runnableNotification);
-        mHandler.postDelayed(runnableNotification, 20000);
+        mHandler.postDelayed(runnableNotification, 30000);
     }
     Runnable runnableNotification = new Runnable() {
         @Override
