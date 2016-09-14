@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#55000000">
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon"
+        android:id="@+id/img"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:textSize="24sp"
+        android:id="@+id/tv"
+        android:textColor="@android:color/white"
+        android:layout_alignTop="@id/img"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/img"
+        android:layout_toEndOf="@id/img"
+        android:text="Paiduay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="16sp"
+        android:id="@+id/tv2"
+        android:textColor="@android:color/white"
+        android:layout_alignTop="@id/tv"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/tv"
+        android:layout_toEndOf="@id/tv"
+        android:text="3s ago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/content"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/tv"
+        android:layout_toRightOf="@id/img"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:text="Your driver will pick you up in 15 minutes."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
